@@ -11,6 +11,7 @@ module MolecularGraph
         Graph
 
     module Util
+        include("./util/meta.jl")
         include("./util/iterator.jl")
     end
 
